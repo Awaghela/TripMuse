@@ -125,7 +125,7 @@ The PDF is designed for offline use: something you can keep in iCloud Files, Goo
 - Landing hero
 - “Start trip moodboard →” CTA
 - Feature cards explaining Moodboard / Packing / Journal / Export
-- Gradient background in Wanderlog-inspired palette (blue ↔ white)
+- Gradient background palette (blue ↔ white)
 
 ### `/moodboard`
 - Left panel: trip summary (destination, dates, vibe)
@@ -273,7 +273,7 @@ It's designed to be something you can:
    Share packing + journal so everyone going on a group trip can collaborate; merge and dedupe packing lists.
 
 3. **Sync into itinerary tools.**  
-   Push the “Trip Vibe” and “Must-do’s” into an itinerary in Wanderlog — so emotional intent and logistics live together.
+   Push the “Trip Vibe” and “Must-do’s” into an itinerary — so emotional intent and logistics live together.
 
 4. **Document reminders.**  
    Passport validity, visa warning, vaccine proof, SIM card reminders, etc., based on destination.
@@ -287,7 +287,7 @@ It's designed to be something you can:
 
 - The UI uses TailwindCSS for fast iteration and theming.
 - Dark mode is handled by toggling a `dark` class on `<html>` and remembering it in `localStorage` (`tripmuse-theme`).
-- Background is a soft blue→white radial/linear combo intentionally styled to evoke Wanderlog’s visual language without directly copying it.
+- Background is a soft blue→white radial/linear combo intentionally styled to evoke visual language without directly copying it.
 - Components are built to look like “cards”: blurred white panels with rounded corners and drop shadows. This matches how modern travel and planning apps present information chunks.
 
 ---
